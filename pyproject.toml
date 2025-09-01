@@ -1,0 +1,11 @@
+[project]
+name = "rmcloud2pdf"
+version = "0.1.0"
+description = "Python program that fetches documents from Remarkable cloud and converts all notes to pdf"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "rmc>=0.3.0",
+    "rmcl>=0.4.2",
+    "rich>=14.1.0",
+]
